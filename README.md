@@ -9,7 +9,7 @@ Configuration files for Neovim.
 Create the symlink:
 
 ```bash
-ln -s ~/Code/dotfiles/nvim ~/.config/nvim
+ln -s ~/Code/neovim-config/nvim ~/.config/nvim
 ```
 
 
