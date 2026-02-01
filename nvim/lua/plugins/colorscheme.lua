@@ -1,8 +1,7 @@
 return {
-  "catppuccin/nvim",
-  name = "catppuccin",
+  "morhetz/gruvbox",
   priority = 1000,
   config = function()
-    vim.cmd.colorscheme("catppuccin-macchiato")
+    vim.cmd.colorscheme("gruvbox")
   end,
 }
