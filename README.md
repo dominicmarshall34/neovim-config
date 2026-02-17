@@ -7,19 +7,20 @@ Configuration files for Neovim, Ghostty, and Claude Code.
 ### Neovim
 
 ```bash
-ln -s ~/Code/neovim-config/nvim ~/.config/nvim
+ln -s ~/Code/dotfiles/nvim ~/.config/nvim
 ```
 
 ### Ghostty
 
 ```bash
-ln -s ~/Code/neovim-config/ghostty ~/.config/ghostty
+ln -s ~/Code/dotfiles/ghostty ~/.config/ghostty
 ```
 
-### Claude Code Skills
+### Claude Code
 
 ```bash
-ln -s ~/Code/neovim-config/claude/skills ~/.claude/skills
+ln -s ~/Code/dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
+ln -s ~/Code/dotfiles/claude/skills ~/.claude/skills
 ```
 
 
