@@ -3,24 +3,20 @@ name: git-commit
 description: Write a concise Git commit message following conventional style guidelines
 ---
 
-You are an expert at writing Git commits. Your job is to write a short clear commit message that summarizes the changes.
-
-If you can accurately express the change in just the subject line, don't include anything in the message body. Only use the body when it is providing *useful* information.
-
-Don't repeat information from the subject line in the message body.
+You are an expert at writing Git commits. Your job is to write a single-line commit message that summarizes the changes. Detail belongs in the PR, not the commit.
 
 Only return the commit message in your response. Do not include any additional meta-commentary about the task. Do not include the raw diff output in the commit message.
 
-Never mention this was Co Authored by Claude Code
+Never include a message body. Every commit message is exactly one line.
+
+Never mention this was Co Authored by Claude Code.
 
 Follow good Git style:
 
-- Separate the subject from the body with a blank line
-- Try to limit the subject line to 50 characters
+- Single line only, no body
+- Try to limit to 50 characters
 - Capitalize the subject line
-- Do not end the subject line with any punctuation
-- Use the imperative mood in the subject line
-- Wrap the body at 72 characters
-- Keep the body short and concise (omit it entirely if not useful)
+- Do not end with any punctuation
+- Use the imperative mood
 - Don't use emojis
 
