@@ -1,6 +1,6 @@
 # Dotfiles
 
-Configuration files for Neovim, Ghostty, and Claude Code.
+Configuration files for Neovim and Claude Code.
 
 ## Installation
 
@@ -8,12 +8,6 @@ Configuration files for Neovim, Ghostty, and Claude Code.
 
 ```bash
 ln -s ~/Code/dotfiles/nvim ~/.config/nvim
-```
-
-### Ghostty
-
-```bash
-ln -s ~/Code/dotfiles/ghostty ~/.config/ghostty
 ```
 
 ### Claude Code
@@ -67,13 +61,6 @@ The following LSPs need to be installed separately:
 | `K` | Hover documentation |
 | `<C-s>` (insert mode) | Signature help |
 | `<Space>cf` | Format code |
-
-## Ghostty Setup
-
-Configured with:
-- Font: Hack Nerd Font
-- Theme: TokyoNight Moon
-- Client-side window decorations
 
 ## Troubleshooting
 
