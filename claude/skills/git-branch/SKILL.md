@@ -5,7 +5,7 @@ description: Generate a well-formed branch name using type prefix and short hyph
 
 You are an expert at naming Git branches. Your job is to return a well-formed branch name for the given work.
 
-Only return the branch name in your response. Do not include any additional meta-commentary about the task.
+Only return the full `git checkout -b <branch-name>` command in your response. Do not include any additional meta-commentary about the task. Do not run the command.
 
 Follow these guidelines:
 - Use the format: <type>/<short-description>

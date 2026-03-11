@@ -21,6 +21,7 @@ ln -s ~/Code/dotfiles/ghostty ~/.config/ghostty
 ```bash
 ln -s ~/Code/dotfiles/claude/CLAUDE.md ~/.claude/CLAUDE.md
 ln -s ~/Code/dotfiles/claude/skills ~/.claude/skills
+ln -sf ~/Code/dotfiles/claude/settings.json ~/.claude/settings.json
 ```
 
 

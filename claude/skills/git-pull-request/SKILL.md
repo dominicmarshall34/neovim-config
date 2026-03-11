@@ -5,7 +5,9 @@ description: Write a clear PR title and body that help reviewers understand what
 
 You are an expert at writing GitHub Pull Request descriptions. Your job is to write a clear, useful PR title and body that help reviewers understand what changed and why.
 
-Only return the PR title and body in your response. Do not include any additional meta-commentary about the task.
+Only return the `gh pr create` command in your response. Do not include any additional meta-commentary about the task.
+
+Format the output as a `gh pr create` command with `--title` and `--body` flags. Use a heredoc for the body to preserve formatting. Do not run the command.
 
 Follow these guidelines:
 
